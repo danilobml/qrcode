@@ -16,6 +16,7 @@ html{
      box-sizing:inherit;
 }
 
+/*Body and background*/
 * {
     font-family: "Outfit";
 }
@@ -25,37 +26,44 @@ body {
     background-color: var(--lightgray);
 }
 
+/*Container box*/
 .container {
     display: flex;
     flex-direction: column;
     margin: 1rem;
     background-color: var(--white);
-    border-radius: 1.5rem;
-    padding: 1.5rem;
+    border-radius: 1rem;
+    padding: 1.3rem;
 }
 
+/*Image (QR)*/
 img.qcode {
     width: 100%;
     align-self: center;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
 } 
 
+/*Text*/
 .firstp {
     font-weight: 700;
     font-size: 2em;
     text-align: center;
     color: var(--darkblue);
-    margin: 1rem auto;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .secondp {
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.4em;
     text-align: center;
     color: var(--grayblue);
-    margin: 1rem auto;
+    margin: auto;
+    padding-bottom: 1.5rem;
 }
 
+/*Footer*/
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -64,3 +72,16 @@ img.qcode {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/*Desktop variation*/
+@media screen and (min-width: 375px) {
+    main {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        max-width: 400px;
+    }
+} 
+      
