@@ -46,7 +46,7 @@ img.qcode {
 /*Text*/
 .firstp {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 6vw;
     text-align: center;
     color: var(--darkblue);
     margin: auto;
@@ -56,11 +56,12 @@ img.qcode {
 
 .secondp {
     font-weight: 400;
-    font-size: 1.4em;
+    font-size: 4.5vw;
     text-align: center;
     color: var(--grayblue);
     margin: auto;
     padding-bottom: 1.5rem;
+
 }
 
 /*Footer*/
@@ -74,14 +75,22 @@ img.qcode {
 }
 
 /*Desktop variation*/
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 376px){
     main {
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
     .container {
-        max-width: 400px;
+        max-width: 375px;
+    }
+
+    .firstp {
+        font-size: 1.8rem;
+    }
+
+    .secondp {
+        font-size: 1.3rem;
     }
 } 
       
