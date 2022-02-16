@@ -21,20 +21,13 @@ My solution to the challenge. I'm a complete beginner to HTML, CSS, and coding i
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot-desktop.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://danilobml.github.io/qrcode/)
 
 ## My process
 
@@ -47,25 +40,24 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I did this as an attempt to apply my still pretty poor knowledge of HTML and CSS. I've just started learning to code (for less than a month at this point).
+I did this as an attempt to apply my still pretty poor knowledge of HTML and CSS. I've just started learning to code, for less than a month at this point.
 
-A lot of what I did is based on examples and ideas I've learned from my classes at the WBS Coding School Berlin.
+What I did is based on examples and ideas I've learned from my classes at the WBS Coding School Berlin.
 
 Pretty much everything is a new thing I'm learning :)
 
 Examples: learning how to use the external font-family (Outfit).
 
-Applying media queries.
+*Applying media queries - This is still difficult for me and I'm still uncertain if what I did is correct (maybe someone could give me a feedback)...
 
 ### Continued development
 
-CSS flexbox positioning it's still pretty hard for me. I need to do many more exercises and projects like this.
+CSS flexbox positioning, especially responsive, is still pretty hard for me. I need to do many more exercises and projects like this.
 
 ### Useful resources
 
 - [W3](https://www.w3schools.com/) - This helped me to understand how to link to an external font-family.
 - [Stack Overflow](https://stackoverflow.com) - They have tips to solve a lot of coding problems. It was especially useful for positioning with flexbox. 
-
 
 ## Author
 
@@ -73,4 +65,4 @@ CSS flexbox positioning it's still pretty hard for me. I need to do many more ex
 
 ## Acknowledgments
 
-Thanks Ben fom WBS coding school! A great teacher!
+I'd like to thank Ben fom WBS coding school! He is a great teacher!
