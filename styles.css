@@ -1,6 +1,64 @@
+/* Var */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayblue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%)
+}
+
+/* Border-box*/
+html{ 
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+     box-sizing:inherit;
+}
+
+* {
+    font-family: "Outfit";
+}
+
+body {
+    font-size: 15px;
+    background-color: var(--lightgray);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: var(--white);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+
+img.qcode {
+    width: 100%;
+    align-self: center;
+    border-radius: 1.5rem;
+} 
+
+.firstp {
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    color: var(--darkblue);
+    margin: 1rem auto;
+}
+
+.secondp {
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    color: var(--grayblue);
+    margin: 1rem auto;
+}
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
